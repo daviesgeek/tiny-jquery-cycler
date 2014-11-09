@@ -2,7 +2,7 @@
   "name": "tiny-jquery-slider",
   "version": "1.0.0",
   "description": "A tiny lightweight slider",
-  "main": "build/slider.js",
+  "main": "dist/tiny-jquery-slider.js",
   "scripts": {
     "build": "grunt build"
   },

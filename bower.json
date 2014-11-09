@@ -6,7 +6,7 @@
     "Matthew Davies <daviesgeek@icloud.com>"
   ],
   "description": "A tiny lightweight slider",
-  "main": "build/slider.min.js",
+  "main": "dist/tiny-jquery-slider.js",
   "keywords": [
     "slider",
     "jquery",
