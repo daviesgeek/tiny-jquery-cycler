@@ -1,7 +1,5 @@
 # TinyJQSlider
-#### Features
-- Lightweight; less than 1KB, minified
-- Single file; no CSS file to load
+A lightweight jQuery image slider that is ~1.5K minified. One JS file, no CSS file required.
 
 ## Usage:
 
