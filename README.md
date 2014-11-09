@@ -1,6 +1,7 @@
 # TinyJQSlider
 #### Features
-- Lightweight
+- Lightweight; less than 1KB, minified
+- Single file; no CSS file to load
 
 ## Usage:
 
