@@ -1,0 +1,28 @@
+{
+  "name": "tiny-jquery-slider",
+  "version": "1.0.0",
+  "description": "A tiny lightweight slider",
+  "main": "build/slider.min.js",
+  "scripts": {
+    "build": "node_modules/.bin/uglifyjs src/slider.js -o build/slider.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daviesgeek/tiny-jquery-slider.git"
+  },
+  "keywords": [
+    "slider",
+    "jquery",
+    "image",
+    "slider"
+  ],
+  "author": "Matthew Davies",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daviesgeek/tiny-jquery-slider/issues"
+  },
+  "homepage": "https://github.com/daviesgeek/tiny-jquery-slider",
+  "devDependencies": {
+    "uglify-js": "^2.4.15"
+  }
+}
