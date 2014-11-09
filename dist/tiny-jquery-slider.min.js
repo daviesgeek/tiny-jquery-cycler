@@ -1,6 +1,6 @@
 /**
  * A tiny lightweight slider
- * @version v1.0.2 - 2014-11-09
+ * @version v1.0.0 - 2014-11-09
  * @link https://github.com/daviesgeek/tiny-jquery-slider
  * @author Matthew Davies
  * @license MIT License, http://www.opensource.org/licenses/MIT
