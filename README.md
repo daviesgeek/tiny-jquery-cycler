@@ -6,7 +6,7 @@ A lightweight jQuery image slider that is ~1.5K minified. One JS file, no CSS fi
 ```js
   new TinyJQSlider([jQuery element], [options])
 ```
-
+#### Example:
 ```html
 <ul class="slider">
   <li><img src="/img/image-1.jpg"></li>
