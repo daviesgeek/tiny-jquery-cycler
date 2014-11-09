@@ -5,7 +5,7 @@
   "authors": [
     "Matthew Davies <daviesgeek@icloud.com>"
   ],
-  "description": "A tiny lightweight slider",
+  "description": "A tiny jQuery image slider",
   "main": "dist/tiny-jquery-slider.js",
   "keywords": [
     "slider",
