@@ -1,5 +1,5 @@
 ## Contributing:
-Contributions are welcome. There are a couple tasks in the Gruntfile to help with distribution and development. All of the Grunt tasks are aliased in the `package.json`
+Contributions are welcome. There are a couple tasks in the Gruntfile to help with distribution and development. All of the necessary Grunt tasks are aliased in the `package.json`
 
 #### build:
 Builds the project and puts the built files in to `dist`
