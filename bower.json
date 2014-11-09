@@ -1,0 +1,27 @@
+{
+  "name": "tiny-jquery-slider",
+  "version": "1.0.0",
+  "homepage": "https://github.com/daviesgeek/tiny-jquery-slider",
+  "authors": [
+    "Matthew Davies <daviesgeek@icloud.com>"
+  ],
+  "description": "A tiny lightweight slider",
+  "main": "build/slider.min.js",
+  "keywords": [
+    "slider",
+    "jquery",
+    "image",
+    "slider"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">= 1.11.1"
+  }
+}
