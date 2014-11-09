@@ -39,18 +39,37 @@ module.exports = function(grunt) {
       }
     },
 
-    // Publish
+    // Publishing stuff
+    bumpup: {
+      files: ['package.json', 'bower.json'],
+    },
     shell: {
-      bowerPublish: {
-        command: 'bower register <%= pkg.name %> <%= pkg.repository.url %>'
+
+      // To tag a new release
+      tag: {
+        command: [
+          'git commit -am "Release v<%= pkg.version %>"',
+          'git tag -a v<%= pkg.version %> -m "Release v<%= pkg.version %>"',
+          'echo "Make sure you push the release with git push origin master --tags"'
+          ].join('&&')
+      },
+
+      // Just in case. Doesn't delete anything
+      undoTag: {
+        command: [
+          'git reset --soft HEAD~1',
+          'git tag -d v<%= pkg.version %>'
+        ].join('&&')
       }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-bumpup');
   grunt.loadNpmTasks('grunt-shell');
 
   grunt.registerTask('build', ['uglify', 'concat']);
-  grunt.registerTask('publish', ['build', 'shell:bowerPublish']);
+  grunt.registerTask('tag', ['shell:tag'])
+  grunt.registerTask('undoTag', ['shell:undoTag'])
 }
