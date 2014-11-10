@@ -18,6 +18,13 @@ A tiny jQuery image slider that is ~1.5K minified. One lightweight JS file, no C
   new TinyJQSlider($('.slider'))
 ```
 
+It is recommended that you do have one CSS rule for the `li` elements within the `ul` to ensure that on page load they don't flash:
+```css
+.slider li {
+  display: none;
+}
+```
+
 ### Options
 #### interval:
 the duration of each slide in milliseconds
