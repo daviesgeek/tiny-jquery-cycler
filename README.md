@@ -10,15 +10,14 @@ A tiny jQuery image slider that is ~1.5K minified. One lightweight JS file, no C
 ```
 #### Example:
 ```html
-<script src="https://cdn.rawgit.com/daviesgeek/tiny-jquery-slider/master/dist/tiny-jquery-slider.min.js"></script>
 <ul class="slider">
   <li><img src="/img/image-1.jpg"></li>
   <li><img src="/img/image-2.jpg"></li>
 </ul>
-```
-
-```js
+<script src="https://cdn.rawgit.com/daviesgeek/tiny-jquery-slider/master/dist/tiny-jquery-slider.min.js"></script>
+<script type="text/javascript">
   new TinyJQSlider($('.slider'))
+</script>
 ```
 
 It is recommended that you do have one CSS rule for the `li` elements within the `ul` to ensure that on page load they don't flash:
