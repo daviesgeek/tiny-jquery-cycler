@@ -1,26 +1,25 @@
 {
-  "name": "tiny-jquery-slider",
+  "name": "tiny-jquery-cycler",
   "version": "1.0.0",
-  "description": "A tiny jQuery image slider",
-  "main": "dist/tiny-jquery-slider.js",
+  "description": "A tiny jQuery image cycler",
+  "main": "dist/tiny-jquery-cycler.js",
   "scripts": {
     "build": "grunt build",
     "publish": "grunt bumpup && grunt build && grunt tag"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/daviesgeek/tiny-jquery-slider.git"
+    "url": "https://github.com/daviesgeek/tiny-jquery-cycler.git"
   },
   "keywords": [
-    "slider",
+    "cycler",
     "jquery",
-    "image",
-    "slider"
+    "image"
   ],
   "author": "Matthew Davies",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/daviesgeek/tiny-jquery-slider/issues"
+    "url": "https://github.com/daviesgeek/tiny-jquery-cycler/issues"
   },
   "homepage": "https://github.com/daviesgeek/tiny-jquery-slider",
   "devDependencies": {

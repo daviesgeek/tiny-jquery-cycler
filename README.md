@@ -1,28 +1,28 @@
-# TinyJQSlider
-A tiny jQuery image slider that is ~1.5K minified. One lightweight JS file, no CSS file required.
+# TinyJQCycler
+A tiny jQuery image cycler that is ~1.5K minified. One lightweight JS file, no CSS file required.
 
 (I am planning on adding a demo sometime soon)
 
 ## Usage:
 
 ```js
-  new TinyJQSlider([jQuery element], [options])
+  new TinyJQCycler([jQuery element], [options])
 ```
 #### Example:
 ```html
-<ul class="slider">
+<ul class="cycler">
   <li><img src="/img/image-1.jpg"></li>
   <li><img src="/img/image-2.jpg"></li>
 </ul>
-<script src="https://cdn.rawgit.com/daviesgeek/tiny-jquery-slider/master/dist/tiny-jquery-slider.min.js"></script>
+<script src="https://cdn.rawgit.com/daviesgeek/tiny-jquery-cycler/master/dist/tiny-jquery-cycler.min.js"></script>
 <script type="text/javascript">
-  new TinyJQSlider($('.slider'))
+  new TinyJQCycler($('.cycler'))
 </script>
 ```
 
 It is recommended that you do have one CSS rule for the `li` elements within the `ul` to ensure that on page load they don't flash:
 ```css
-.slider li {
+.cycler li {
   display: none;
 }
 ```

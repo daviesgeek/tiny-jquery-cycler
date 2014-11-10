@@ -1,6 +1,6 @@
 'use strict';
 
-var TinyJQSlider = function(element, options) {
+var TinyJQCycler = function(element, options) {
   if(typeof jQuery == 'undefined')
     console.error('jQuery is required for the slider to run')
 
@@ -29,7 +29,7 @@ var TinyJQSlider = function(element, options) {
   this._init(element, options);
 };
 
-TinyJQSlider.prototype._init = function(element, options) {
+TinyJQCycler.prototype._init = function(element, options) {
   this._element = element
   this._slides = this._element.children('li')
   if(!this._slides)
@@ -47,7 +47,7 @@ TinyJQSlider.prototype._init = function(element, options) {
   window.setInterval(this._advanceSlide.bind(this), this._options.interval)
 }
 
-TinyJQSlider.prototype._advanceSlide = function() {
+TinyJQCycler.prototype._advanceSlide = function() {
   this._currentSlide.fadeOut(this._options.speed)
   this._nextSlide.fadeIn(this._options.speed)
 
@@ -57,7 +57,7 @@ TinyJQSlider.prototype._advanceSlide = function() {
   if(!this._nextSlide.get(0))
     this._nextSlide = this._slides.eq(0)
 }
-TinyJQSlider.prototype._applyCSS = function() {
+TinyJQCycler.prototype._applyCSS = function() {
   this._element.css(this._options.elementCSS)
 
   var self = this
@@ -67,4 +67,4 @@ TinyJQSlider.prototype._applyCSS = function() {
   })
 };
 
-window.TinyJQSlider = TinyJQSlider
+window.TinyJQCycler = TinyJQCycler

@@ -1,17 +1,16 @@
 {
-  "name": "tiny-jquery-slider",
+  "name": "tiny-jquery-cycler",
   "version": "1.0.0",
-  "homepage": "https://github.com/daviesgeek/tiny-jquery-slider",
+  "homepage": "https://github.com/daviesgeek/tiny-jquery-cycler",
   "authors": [
     "Matthew Davies <daviesgeek@icloud.com>"
   ],
-  "description": "A tiny jQuery image slider",
-  "main": "dist/tiny-jquery-slider.js",
+  "description": "A tiny jQuery image cycler",
+  "main": "dist/tiny-jquery-cycler.js",
   "keywords": [
-    "slider",
+    "cycler",
     "jquery",
-    "image",
-    "slider"
+    "image"
   ],
   "license": "MIT",
   "ignore": [
