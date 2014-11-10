@@ -1,6 +1,8 @@
 # TinyJQSlider
 A tiny jQuery image slider that is ~1.5K minified. One lightweight JS file, no CSS file required.
 
+(I am planning on adding a demo sometime soon)
+
 ## Usage:
 
 ```js
@@ -8,6 +10,7 @@ A tiny jQuery image slider that is ~1.5K minified. One lightweight JS file, no C
 ```
 #### Example:
 ```html
+<script src="https://cdn.rawgit.com/daviesgeek/tiny-jquery-slider/master/dist/tiny-jquery-slider.min.js"></script>
 <ul class="slider">
   <li><img src="/img/image-1.jpg"></li>
   <li><img src="/img/image-2.jpg"></li>
