@@ -20,6 +20,12 @@ A tiny jQuery image cycler that is ~1.5K minified. One lightweight JS file, no C
 </script>
 ```
 
+#### Bower
+You can also install this package via [Bower](http://bower.io/):
+```bash
+bower install tiny-jquery-cycler --save
+```
+
 It is recommended that you do have one CSS rule for the `li` elements within the `ul` to ensure that on page load they don't flash:
 ```css
 .cycler li {
